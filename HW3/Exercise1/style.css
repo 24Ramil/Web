@@ -1,0 +1,36 @@
+
+h2{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+}
+
+.box {
+    text-align: center;
+    width: 140px; 
+    height: 160px;
+    margin: 10px 5px; 
+    border: 2px solid #566969;
+    border-radius: 15%;
+}
+
+.name_style{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+hr{
+    margin: 3%;
+    color:#566969;
+}
+
+.img_style{
+    width: 80px;
+    height: 80px;
+    padding: 12%; 
+}

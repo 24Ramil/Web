@@ -1,0 +1,90 @@
+
+
+footer{
+    background-color: #4262ce;
+    height: 300px;
+}
+
+div{
+    display:flex;
+}
+
+ul{
+    list-style-type: none;
+    margin: 50px 130px 10px 130px;
+}
+
+
+ul li{
+    margin-bottom: 10px;
+    font-weight:200;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+.img_style{
+    display: flex;
+    font-size: 15px;
+}
+
+.img_style li{
+    margin: 10px;
+}
+
+
+.youtube, .facebook, .instagram {
+    width: 65px;
+    height: 65px;
+}
+
+.youtube {
+    background-image: url('Images/youtube_gray.png');
+}
+
+.facebook {
+    background-image: url('Images/fb_gray.png');
+}
+
+.instagram {
+    background-image: url('Images/insta_gray.png');
+}
+
+
+.youtube:hover {
+    cursor: pointer;
+    background-image: url('Images/youtube.png');
+}
+
+.facebook:hover {
+    cursor: pointer;
+    background-image: url('Images/fb.png');
+}
+
+.instagram:hover {
+    cursor: pointer;
+    background-image: url('Images/insta.png');
+}
+
+
+
+ul li a{
+    color: #ffffff;
+}
+
+
+hr{
+    width: 92%;
+}
+
+p{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+}

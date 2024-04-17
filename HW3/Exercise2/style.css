@@ -1,0 +1,32 @@
+
+.menu_style{
+    background-color: #808a8a;
+    width: 20pc;
+    height: 25.1pc;
+}
+
+.img_style{
+    width: 25%;
+}
+
+.menu_style {
+    list-style: none;
+    padding: 0%;
+}
+
+.menu_style li {
+    color: #ffffff;
+    transition: background-color 1.1s;
+    cursor: pointer;
+}
+
+.menu_style li:hover {
+    background-color: #212122;
+    color: #75d5d5;
+}
+
+
+.menu_style li img {
+    vertical-align: middle;
+    margin-right: 5px;
+}

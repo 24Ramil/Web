@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.menu {
+    background-color: #555;
+    padding: 10px;
+}
+
+.menu ul li {
+    display:inline;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration:wavy;
+}
+
+.wrapper{
+    display:flex;
+    align-items: start;
+    margin-bottom: 45px;
+}
+
+.panel1 {
+    margin: 10px 0px 20px 0px;
+    width: 220px;
+    height: 130px;
+    background-color: #b9e9ec;
+    padding: 10px;
+}
+
+.panel2 {
+    margin: 10px 0px 10px 0px;
+    width: 220px;
+    height: 195px;
+    background-color: #b9e9ec;
+    padding: 10px;
+}
+
+.panel3 {
+    margin: 10px 0px 20px 0px;
+    width: 160px;
+    height: 375px;
+    background-color: #b9e9ec;
+    padding: 10px;
+}
+
+.panel1 h2, .panel1 p, .panel2 h2, .panel2 p, .panel3 h2, .panel3 p{
+    padding:10px;
+    background-color:aqua ;
+}
+
+
+main {
+    width: 550px;
+    height: 440px;
+    background-color: #6b908d;
+    margin: 10px;
+}
+
+section{
+    width: 80%;
+    height: 20%;
+    background-color: #21897ffc;
+    margin: 30px 30px ;
+}
+
+
+div main h2{
+    padding: 0% 8%;
+}
+
+
+footer {
+    clear: both;
+    background-color: #423f3f;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
