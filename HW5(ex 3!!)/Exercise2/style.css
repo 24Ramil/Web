@@ -1,0 +1,42 @@
+
+.gif_p{
+    width: 250px;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    position:absolute;
+    z-index: 1;
+    
+}
+
+
+.sound-effect:hover + audio {
+    display: inline-block;
+}
+
+
+
+.container {
+    padding: 25px;
+    display: flex;
+}
+  
+
+.block {
+    z-index: 2;
+    position: relative;
+    width: 80%;
+    height: 400px;
+    background-color: #ccc;
+    transition: transform 1s ease;
+}
+
+
+.container:hover #block1 {
+    transform: perspective(1000px) rotateY(75deg);
+}
+  
+.container:hover #block2 {
+    transform: perspective(1000px) rotateY(-75deg);
+}
