@@ -1,0 +1,44 @@
+
+
+.menu_style p:not(:nth-child(1)){
+    color: #f1ffff;
+    position: absolute;
+    transform: 2s;
+    top: 25px;
+    left: 100px;
+    margin: 0px 0px 0px 0px;
+}
+
+.menu_style li:hover p {
+    color: #35e3e3;
+}
+
+.menu_style{
+    background-color: #808a8a;
+    width: 80px;
+    height: 450px;
+}
+
+.img_style{
+    width: 80px;
+}
+
+.menu_style {
+    list-style: none;
+    padding: 0px;
+    transition: 1s;
+}
+
+.menu_style li {
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.menu_style:hover{
+    width: 280px;
+}
+
+.menu_style li:hover {
+    background-color: #212122;
+    cursor: pointer;
+}
