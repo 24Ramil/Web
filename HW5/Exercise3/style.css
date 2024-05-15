@@ -1,0 +1,36 @@
+
+
+.container{
+    width:100;
+    background-color: black;
+}
+
+.block1, .block2{
+
+    display: flex;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    opacity: 0.7;
+}
+
+.text{
+    background-color: #f5f5f5;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block1:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.block2:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}

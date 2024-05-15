@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container" id="container" >
+            
+        <div class="block" id="block1"></div>
+        <img class="gif_p" src="https://tenor.com/ru/view/mapache-pedro-gif-7206648027763736533.gif" alt="GIF">
+        <div class="block" id="block2"></div>
+
+        <audio id="audio-player" loop>
+            <source src="melody.mp3" type="audio/mpeg">
+        </audio>
+          
+    </div>
+
+    
+    <script>
+        const block1 = document.getElementById('container');
+        const block2 = document.getElementById('container');
+        const audioPlayer = document.getElementById('audio-player');
+
+        let isPlaying = false;
+
+        block1.addEventListener('mouseenter', () => {
+            if (!isPlaying) {
+                audioPlayer.play();
+                isPlaying = true;
+            }
+        });
+
+        block1.addEventListener('mouseleave', () => {
+            audioPlayer.pause();
+            audioPlayer.currentTime = 0;
+            isPlaying = false;
+        });
+
+        block2.addEventListener('mouseenter', () => {
+            if (!isPlaying) {
+                audioPlayer.play();
+                isPlaying = true;
+            }
+        });
+
+        block2.addEventListener('mouseleave', () => {
+            audioPlayer.pause();
+            audioPlayer.currentTime = 0;
+            isPlaying = false;
+        });
+    </script>
+
+</body>
+
+</html>
